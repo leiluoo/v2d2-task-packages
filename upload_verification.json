@@ -1,0 +1,17 @@
+{
+  "verified_at": "2026-10-21T11:59:44.818795+00:00",
+  "repository": "https://github.com/leiluoo/v2d2-task-packages",
+  "private": true,
+  "release_tag": "minimax-buckets-20261021",
+  "archives": 56,
+  "total_bytes": 22601879941,
+  "all_github_sha256_match_manifest": true,
+  "tasks": 6878,
+  "trajectories": 19556,
+  "counts": {
+    "rl": 644,
+    "sft": 933,
+    "annealing": 5301
+  },
+  "render_caches_or_judge_payloads_included": false
+}
