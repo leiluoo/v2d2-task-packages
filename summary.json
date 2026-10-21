@@ -1,0 +1,40 @@
+{
+  "status": "applied",
+  "created_at": "2026-10-21T11:08:16.431828+00:00",
+  "policy": "union_ge_80_mean_le_60_top2_mean_le_80",
+  "scope_tasks": 6878,
+  "judge_run": "/mnt/public/ouyangleiluo/experiments/v2d2pipeline/judge_minimax_full_20261020T172733Z",
+  "source_previous_buckets": "/mnt/public/ouyangleiluo/experiments/v2d2pipeline/judge_minimax_full_20261020T172733Z/bucketing_union80_mean60_top2_80",
+  "previous_counts": {
+    "rl": 644,
+    "annealing": 5614,
+    "sft": 620
+  },
+  "counts": {
+    "rl": 644,
+    "annealing": 5301,
+    "sft": 933
+  },
+  "transitions": {
+    "rl->rl": 644,
+    "annealing->annealing": 5301,
+    "sft->sft": 620,
+    "annealing->sft": 313
+  },
+  "changed_tasks": 313,
+  "capacity_excluded_tasks": 28,
+  "capacity_buckets": {
+    "annealing": 28
+  },
+  "incomplete_tasks": 1023,
+  "failure_policy": "Requires exactly three complete valid judgments; failures and missing results never treated as zero.",
+  "rl_rules": {
+    "union_gte": 0.8,
+    "mean_lte": 0.6,
+    "top2_mean_lte": 0.8
+  },
+  "sft_rule": "Three complete valid judgments and union>=80%, unless task qualifies for RL under 80/60/80; all remaining tasks annealing.",
+  "original_judgments_unchanged": true,
+  "sft_union_gte": 0.8,
+  "updated_at": "2026-10-21T11:08:16.431828+00:00"
+}

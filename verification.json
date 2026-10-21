@@ -1,0 +1,29 @@
+{
+  "sample_file_checks": [
+    {
+      "bucket": "rl",
+      "task_id": "20261003T191225408321Z_onet_11-1011.00_20461_02",
+      "verified_files": 32,
+      "rollout_trajectories": 3,
+      "judgment_files": 6
+    },
+    {
+      "bucket": "sft",
+      "task_id": "20261003T191225408321Z_onet_11-2011.00_21225_02",
+      "verified_files": 28,
+      "rollout_trajectories": 3,
+      "judgment_files": 6
+    },
+    {
+      "bucket": "annealing",
+      "task_id": "20261003T191225408321Z_onet_11-1011.00_8826_03",
+      "verified_files": 29,
+      "rollout_trajectories": 2,
+      "judgment_files": 6
+    }
+  ],
+  "archive_count": 56,
+  "tasks": 6878,
+  "trajectories": 19556,
+  "all_archives_below_2GiB": true
+}

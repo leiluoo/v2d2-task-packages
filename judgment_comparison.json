@@ -1,0 +1,45 @@
+{
+  "paired_rollout_comparison": {
+    "rollouts": 18986,
+    "tasks": 6795,
+    "rubric_judgments": 249518,
+    "old_mean_pass_rate": 0.6409987343884304,
+    "new_mean_pass_rate": 0.3990520607908117,
+    "mean_delta_percentage_points": -24.194667359761873,
+    "mae_percentage_points": 24.59333418501129,
+    "median_absolute_delta_percentage_points": 23.076923076923073,
+    "rubric_agreement": 0.7383315031380502,
+    "old_pass_new_fail": 62141,
+    "old_fail_new_pass": 3150,
+    "rollouts_lower": 16947,
+    "rollouts_higher": 351,
+    "rollouts_equal": 1688,
+    "old_weighted_mean": 0.6311384441167176,
+    "new_weighted_mean": 0.38974935742125777
+  },
+  "paired_three_rollout_comparison": {
+    "rollouts": 16890,
+    "tasks": 5630,
+    "rubric_judgments": 219984,
+    "old_mean_pass_rate": 0.6392484627732232,
+    "new_mean_pass_rate": 0.3976693723807591,
+    "mean_delta_percentage_points": -24.157909039246416,
+    "mae_percentage_points": 24.546063417593434,
+    "median_absolute_delta_percentage_points": 23.076923076923073,
+    "rubric_agreement": 0.7390628409338861,
+    "old_pass_new_fail": 54727,
+    "old_fail_new_pass": 2675,
+    "rollouts_lower": 15064,
+    "rollouts_higher": 306,
+    "rollouts_equal": 1520,
+    "old_weighted_mean": 0.6293652693901717,
+    "new_weighted_mean": 0.3884990763765542
+  },
+  "paired_three_rollout_tasks": 5630,
+  "paired_three_rollout_union_old_mean": 0.8500809885992442,
+  "paired_three_rollout_union_new_mean": 0.6150808561967617,
+  "baseline_summary_judge_models": {
+    "deepseek-v4.1-flash": 18986
+  },
+  "comparison_caveat": "Both judge model and whole-task/visual evidence policy changed; agreement is not accuracy. No scoring APIs called."
+}

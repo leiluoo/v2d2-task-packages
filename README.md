@@ -8,7 +8,7 @@ Private dataset export of 6,878 tasks, their original input files and rubrics, a
 | SFT | 933 |
 | Annealing | 5,301 |
 
-The data archives are attached to release `minimax-buckets-20261021`. The repository contains the archive manifest, task index, checksums, bucket membership and download script.
+The 56 data archives (22.60 GB total) are attached to release `minimax-buckets-20261021`. They contain 19,556 original trajectories. The repository contains the archive manifest, task index, checksums, bucket membership and download script.
 
 ## Bucket rules
 
@@ -63,3 +63,5 @@ python3 scripts/download.py --bucket all --output data
 The downloader verifies every archive against `manifest.json` before extraction. To download without extraction, add `--no-extract`.
 
 `bucket_snapshot.json` contains bucket membership. `task_index.jsonl` maps each task to its archive and records trajectory availability. `task_buckets.jsonl` retains the detailed per-task bucketing audit. `SHA256SUMS` contains archive checksums.
+
+`judgment_comparison.json` compares the current whole-task judgments with the preserved per-rubric baseline on matched tasks and rollouts. Model and visual evidence policy both changed, so agreement is not a measure of accuracy. `verification.json` records the export verification checks.

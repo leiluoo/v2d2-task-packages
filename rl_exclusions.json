@@ -1,0 +1,257 @@
+{
+  "scope": "training_only",
+  "tasks": [
+    {
+      "task": "20261003T191225408321Z_onet_33-1091.00_22948_02",
+      "reason": "capacity_or_context_limit",
+      "training_allowed": [
+        "sft",
+        "annealing"
+      ],
+      "rl_eligible": false
+    },
+    {
+      "task": "20261003T191225408321Z_onet_49-9041.00_11826_01",
+      "reason": "capacity_or_context_limit",
+      "training_allowed": [
+        "sft",
+        "annealing"
+      ],
+      "rl_eligible": false
+    },
+    {
+      "task": "20261003T191225408321Z_onet_51-9151.00_19471_01",
+      "reason": "capacity_or_context_limit",
+      "training_allowed": [
+        "sft",
+        "annealing"
+      ],
+      "rl_eligible": false
+    },
+    {
+      "task": "20261003T191225408321Z_onet_51-9194.00_21027_03",
+      "reason": "capacity_or_context_limit",
+      "training_allowed": [
+        "sft",
+        "annealing"
+      ],
+      "rl_eligible": false
+    },
+    {
+      "task": "20261003T191225408321Z_onet_53-1042.01_17905_02",
+      "reason": "capacity_or_context_limit",
+      "training_allowed": [
+        "sft",
+        "annealing"
+      ],
+      "rl_eligible": false
+    },
+    {
+      "task": "20261004T175830750422Z_onet_11-3051.04_15477_01",
+      "reason": "capacity_or_context_limit",
+      "training_allowed": [
+        "sft",
+        "annealing"
+      ],
+      "rl_eligible": false
+    },
+    {
+      "task": "20261004T175830750422Z_onet_13-1041.03_20723_01",
+      "reason": "capacity_or_context_limit",
+      "training_allowed": [
+        "sft",
+        "annealing"
+      ],
+      "rl_eligible": false
+    },
+    {
+      "task": "20261004T175830750422Z_onet_13-1081.01_15875_02",
+      "reason": "capacity_or_context_limit",
+      "training_allowed": [
+        "sft",
+        "annealing"
+      ],
+      "rl_eligible": false
+    },
+    {
+      "task": "20261004T175830750422Z_onet_15-1251.00_1267_01",
+      "reason": "capacity_or_context_limit",
+      "training_allowed": [
+        "sft",
+        "annealing"
+      ],
+      "rl_eligible": false
+    },
+    {
+      "task": "20261004T175830750422Z_onet_15-1299.02_21722_02",
+      "reason": "capacity_or_context_limit",
+      "training_allowed": [
+        "sft",
+        "annealing"
+      ],
+      "rl_eligible": false
+    },
+    {
+      "task": "20261004T175830750422Z_onet_15-1299.02_21724_03",
+      "reason": "capacity_or_context_limit",
+      "training_allowed": [
+        "sft",
+        "annealing"
+      ],
+      "rl_eligible": false
+    },
+    {
+      "task": "20261004T175830750422Z_onet_15-2021.00_7368_01",
+      "reason": "capacity_or_context_limit",
+      "training_allowed": [
+        "sft",
+        "annealing"
+      ],
+      "rl_eligible": false
+    },
+    {
+      "task": "20261004T175830750422Z_onet_15-2031.00_7384_02",
+      "reason": "capacity_or_context_limit",
+      "training_allowed": [
+        "sft",
+        "annealing"
+      ],
+      "rl_eligible": false
+    },
+    {
+      "task": "20261004T175830750422Z_onet_15-2031.00_7389_02",
+      "reason": "capacity_or_context_limit",
+      "training_allowed": [
+        "sft",
+        "annealing"
+      ],
+      "rl_eligible": false
+    },
+    {
+      "task": "20261004T175830750422Z_onet_17-2141.00_19631_03",
+      "reason": "capacity_or_context_limit",
+      "training_allowed": [
+        "sft",
+        "annealing"
+      ],
+      "rl_eligible": false
+    },
+    {
+      "task": "20261004T175830750422Z_onet_17-2141.02_19633_03",
+      "reason": "capacity_or_context_limit",
+      "training_allowed": [
+        "sft",
+        "annealing"
+      ],
+      "rl_eligible": false
+    },
+    {
+      "task": "20261004T175830750422Z_onet_17-2141.02_19638_03",
+      "reason": "capacity_or_context_limit",
+      "training_allowed": [
+        "sft",
+        "annealing"
+      ],
+      "rl_eligible": false
+    },
+    {
+      "task": "20261004T175830750422Z_onet_17-3026.00_3672_02",
+      "reason": "capacity_or_context_limit",
+      "training_allowed": [
+        "sft",
+        "annealing"
+      ],
+      "rl_eligible": false
+    },
+    {
+      "task": "20261004T175830750422Z_onet_17-3027.00_22070_02",
+      "reason": "capacity_or_context_limit",
+      "training_allowed": [
+        "sft",
+        "annealing"
+      ],
+      "rl_eligible": false
+    },
+    {
+      "task": "20261004T175830750422Z_onet_19-1029.01_16786_03",
+      "reason": "capacity_or_context_limit",
+      "training_allowed": [
+        "sft",
+        "annealing"
+      ],
+      "rl_eligible": false
+    },
+    {
+      "task": "20261004T175830750422Z_onet_19-1029.02_16811_03",
+      "reason": "capacity_or_context_limit",
+      "training_allowed": [
+        "sft",
+        "annealing"
+      ],
+      "rl_eligible": false
+    },
+    {
+      "task": "20261004T175830750422Z_onet_19-1042.00_7516_03",
+      "reason": "capacity_or_context_limit",
+      "training_allowed": [
+        "sft",
+        "annealing"
+      ],
+      "rl_eligible": false
+    },
+    {
+      "task": "20261004T175830750422Z_onet_19-3011.00_7538_03",
+      "reason": "capacity_or_context_limit",
+      "training_allowed": [
+        "sft",
+        "annealing"
+      ],
+      "rl_eligible": false
+    },
+    {
+      "task": "20261004T175830750422Z_onet_19-3011.01_16909_01",
+      "reason": "capacity_or_context_limit",
+      "training_allowed": [
+        "sft",
+        "annealing"
+      ],
+      "rl_eligible": false
+    },
+    {
+      "task": "20261004T175830750422Z_onet_19-4042.00_1562_01",
+      "reason": "capacity_or_context_limit",
+      "training_allowed": [
+        "sft",
+        "annealing"
+      ],
+      "rl_eligible": false
+    },
+    {
+      "task": "20261004T175830750422Z_onet_19-4099.03_16997_01",
+      "reason": "capacity_or_context_limit",
+      "training_allowed": [
+        "sft",
+        "annealing"
+      ],
+      "rl_eligible": false
+    },
+    {
+      "task": "20261004T175830750422Z_onet_39-1022.00_13154_02",
+      "reason": "capacity_or_context_limit",
+      "training_allowed": [
+        "sft",
+        "annealing"
+      ],
+      "rl_eligible": false
+    },
+    {
+      "task": "20261004T175830750422Z_onet_51-8092.00_14288_02",
+      "reason": "capacity_or_context_limit",
+      "training_allowed": [
+        "sft",
+        "annealing"
+      ],
+      "rl_eligible": false
+    }
+  ]
+}
