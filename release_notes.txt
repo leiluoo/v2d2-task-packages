@@ -1,0 +1,7 @@
+6,878 task packages: RL 644, SFT 933, annealing 5,301.
+
+Each task includes task.md, original input files, rubrics, all available original trajectories and solver deliverables, historical per-rubric judgments, MiniMax whole-task judgments, bucket metadata and checksums.
+
+RL: union >=80%, mean <=60%, top-two mean <=80%, with three complete valid judgments and no RL exclusion. SFT: union >=80% and not RL. Incomplete judgments and all remaining tasks go to annealing. Failures are not zero scores.
+
+Download the selected bucket archives and verify them against SHA256SUMS, or use scripts/download.py. Archives are independent and contain disjoint task sets. Missing trajectories in annealing are explicitly recorded.

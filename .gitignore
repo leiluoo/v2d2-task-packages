@@ -1,0 +1,5 @@
+release_assets/
+data/
+__pycache__/
+publish_progress.json
+publish.log
